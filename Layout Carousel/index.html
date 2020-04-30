@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Layout Teste</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="">Logo.com</a>
+                    </div>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="navbar-collapse collapse justify-content-end" id="navbarMenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Sobre nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Mais informações</a>
+                            </li>
+                    </div>
+                </div>  
+            </nav> 
+            <!--Background do carousel-->
+            <div class="container-bg">
+            <!--Carousel começa aqui-->
+            <div id="carousel"class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="carousel slide carousel-fade auto" id="slideshow" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                                <li data-target="#slideshow" data-slide-to="1"></li>
+                                <li data-target="#slideshow" data-slide-to="2"></li>
+                                <li data-target="#slideshow" data-slide-to="3"></li>
+                            </ol>
+                            <!--Itens do carousel e descricao das fotos-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/imagens/foto1.jpg" class="w-100 d-block"/>
+                                    <div class="carousel-caption d-none d-md-block" id="slidetext1">
+                                        <h1>Seja bem vindo!</h1>
+                                        <h5>Descrição Exemplo para a foto</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/imagens/foto2.jpg" class="w-100 d-block"/>
+                                    <div class="carousel-caption d-none d-md-block" id="slidetext2">
+                                        <h1>Conheça nossos serviços!</h1>
+                                        <h5>Descrição Exemplo para a foto</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/imagens/foto3.jpg" class="w-100 d-block"/>
+                                    <div class="carousel-caption d-none d-md-block" id="slidetext3">
+                                        <h1>Entre em contato conosco!</h1>
+                                        <h5>Descrição Exemplo para a foto</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/imagens/foto4.jpg" class="w-100 d-block"/>
+                                    <div class="carousel-caption d-none d-md-block" id="slidetext4">
+                                        <h1>Atendemos em todos os estados!</h1>
+                                        <h5>Descrição Exemplo para a foto</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Botoes de next e prev-->
+                            <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#slideshow" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fim do background-->
+            </div>
+            <!--Area Sobre nos-->
+            <div id="c-jumbotron" class="container text-white">
+                <div class="container-bg">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="jumbotron bg-secondary" id="jumbotron1">
+                            <h1 class="display-4">Seja bem vindo!</h1>
+                            <h5 class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset shee</h5>
+                            <hr class="my-4">
+                            <p class="text-white-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+                          </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+                    <!--Area do formulario-->
+            <div class="container">
+                <div class="row">  
+                    <div class="col-lg bg-dark">
+                        <form method="POST" id="form-email";>
+                            <div class="form-group bg-dark">
+                                <h1 class="text-light">Fale conosco:</h1>
+                                <h3 class="text-light">Preencha o formulario abaixo para entrar em contato conosco!</h3>
+                                <label for="email" class="text-light">Email:</label>
+                                <input id="email" type="email" name="email" class="c-form-1-email form-control" placeholder="exemplo@exemplo.com";/>
+
+                                <label for="nome" style="margin-top: 1rem"class="text-light">Seu nome:</label>
+                                <input id="nome" type="text" name="text" class="form-control c-form-1-name" placeholder="Digite aqui seu nome!";/>
+
+                                <label for="assunto" style="margin-top: 1rem" class="text-light">Assunto:</label>
+                                <input id="assunto" type="text" name="assunto" class="form-control c-form-1-subject" placeholder="Digite aqui o assunto!";/>
+
+                                <label for="mensagem" style="margin-top: 1rem"class="text-light">Sua mensagem:</label>
+                                <input id="mensagem" type="text" name="mensagem" class="form-control c-form-1-message" placeholder="Digite aqui sua mensagem!" ;/>
+                                <input type="submit" value="Enviar" class="form-control btn btn-primary" style="margin-top: 1rem;"/>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+            <!--Menu de exibição-Accordion-->
+            <!--<div class="container">
+                <div class="row">
+                    <div class="col-lg-3 bg-dark">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button class="btn btn-dark" data-toggle="collapse" data-target="#teste" aria-controls="teste">Titulo teste</button>
+                                </div>
+                                <div id="teste" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Conteudo do card
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg bg-dark">oi</div>
+                </div>
+            </div>-->
+        </div>
+
+        <script type="text/javascript" src="assets/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="assets/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

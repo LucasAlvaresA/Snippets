@@ -1,0 +1,37 @@
+body{
+    background-image:url(imagens/5.jpg);
+}
+#carousel{
+    margin-top:1rem;
+}
+#c-jumbotron{
+    margin-top:1rem;
+}
+#jumbotron1{
+    margin-top: 2rem;
+}
+#form-email{
+    margin-top: 3rem;
+}
+.navbar{
+    border-bottom:10px solid #121139;
+}
+#slidetext1{
+    text-shadow: 2px 2px #967e7e;
+    background-color: #13121294;
+}
+#slidetext2{
+    text-shadow: 2px 2px #967e7e;
+    background-color: #13121294;
+}
+#slidetext3{
+    text-shadow: 2px 2px #967e7e;
+    background-color: #13121294;
+}
+#slidetext4{
+    text-shadow: 2px 2px #967e7e;
+    background-color: #13121294;
+}
+.container-bg {
+    background-image:url(imagens/5.jpg);
+}
