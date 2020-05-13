@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap v4</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+</head>
+<body>
+	<div class="container">
+		<!--Primeiro criamos a div carousel e damos uma id para ela  -->
+		<div id="slideshowExemplo" class="slide carousel">
+			<!--Aqui criamos o menu de seleção da parte inferior,aquele quadradinho ou bolinha que seleciona o slide,começando do 0,não esquecer o active para o primeiro item  -->
+			<ol class="carousel-indicators">
+				<li data-target="#slideshowExemplo" data-slide-to="0" class="active"></li>
+				<li data-target="#slideshowExemplo" data-slide-to="1"></li>
+				<li data-target="#slideshowExemplo" data-slide-to="2"></li>
+				<li data-target="#slideshowExemplo" data-slide-to="3"></li>
+			</ol>
+			<!--Aqui colocamos os itens do slide,nao esquecer o active para o primeiro item -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="foto1.jpg" class="w-100" />
+				</div>
+				<div class="carousel-item">
+					<img src="foto2.jpg" class="w-100" />
+				</div>
+				<div class="carousel-item">
+					<img src="foto3.jpg" class="w-100" />
+				</div>
+				<div class="carousel-item">
+					<img src="foto4.jpg" class="w-100" />
+				</div>
+			</div>
+			<!--Aqui criamos o botão lateral de seleção,prev para retornar e next para proximo  -->
+			<a class="carousel-control-prev" href="#slideshowExemplo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#slideshowExemplo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
