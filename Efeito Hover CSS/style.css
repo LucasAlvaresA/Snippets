@@ -49,7 +49,7 @@ body {
     transform: translateY(100px);
 }
 .container .cartao:hover .face.face1 {
-    background: #21ff0480;
+    background: #af040480;
     transform: translateY(0);
 }
 .container .cartao .face.face2 {
