@@ -1,5 +1,6 @@
 # Snippets
 
+> Place here your [badges!](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 <div id="top">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" />
