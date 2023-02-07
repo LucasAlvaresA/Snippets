@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="/examplegirl.png" alt="banner">
+  <img src="/example.png" alt="banner">
 </div>
 
 > Elesis is a free e-commerce template made with Material UI and React.JS!
