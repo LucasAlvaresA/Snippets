@@ -10,7 +10,7 @@
   <img src="/example.png" alt="banner">
 </div>
 
-> Elesis is a free e-commerce template made with Material UI and React.JS!
+> EHere a small description of you project!
 
 ### Tweaks and improvements
 
@@ -25,7 +25,7 @@ To install the project, follow these steps:
 
 * Clone the project using the command:
 ```
-git clone git@github.com:LucasAlvaresA/Elesis.git
+git clone git@github.com:LucasAlvaresA/Snippets.git
 ```
 * Inside the project folder, use the command:
 
@@ -43,14 +43,14 @@ npm start
 
 A new browser tab will open with the project!
 
-## 📫 Contributing to Elesis!
+## 📫 Contributing to Snippets!
 
 To contribute to the project, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <nome_branch>`.
 3. Make your changes and confirm them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin Elesis / <local>`
+4. Push to the original branch: `git push origin Snippets / <local>`
 5. Create a pull request.
 
 Alternatively, see the GitHub documentation on [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
@@ -72,4 +72,4 @@ Thanks to the following people who contributed to this project:
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#top)<br>
+[⬆ Top](#top)<br>
